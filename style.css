@@ -1,0 +1,81 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/c9/98/16/c9981651c06a73da9fcb6a13821d7b2a.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Voltaire", sans-serif;
+  text-align: center;
+}
+/*header*/
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3.5em;
+  color: #3f4651;
+}
+/*text from rows and columns */
+.text {
+  font-size: 0.938em;
+  color: #3f4651;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: middle;
+}
+/*information text*/
+.info,
+.color {
+  font-size: 0.87em;
+  text-transform: uppercase;
+  color: grey;
+}
+.color {
+  color: #5a8876;
+  cursor: pointer;
+}
+/*Title of each "select" a thing*/
+.size {
+  color: #3f4651;
+  font-size: 1.56em;
+  font-weight: bold;
+}
+/*input*/
+input[type="number"] {
+  width: 2.4em;
+  border: 1px solid #5a8876;
+  padding: 0.4em;
+}
+#colorPicker {
+  border: none;
+  width: 4em;
+  height: 3em;
+}
+/*buttons*/
+#submitBtn,
+#clearBtn {
+  background-color: #5a8876;
+  border: none;
+  padding: 0.4em;
+  font-family: "Voltaire", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.87em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*table*/
+table,
+tr,
+td {
+  border: 1px solid #3f4651;
+  cursor: crosshair;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+tr {
+  height: 20px;
+}
+td {
+  width: 20px;
+}

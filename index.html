@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">  
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Codystar|Voltaire|Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <script src="designs.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</head>
+
+<body>
+  <h1>Lab: Pixel Art Maker</h1>
+  <h2 class="size">Select the size:</h2>
+  <form id="sizePicker">
+    <span class="text">Rows:</span>
+    <input type="number" id="input_height" name="height" min="1" max="50" value="5">
+    <span class="text">Columns:</span>
+    <input type="number" id="input_width" name="width" min="1" max="50" value="5">
+    <button id="submitBtn">Submit</button>
+    <button id="clearBtn">Clear All</button>
+  </form>
+  <p class="info">Beware if you want to clear all grid, please click on > <span class="color">Clear All buttom</span></p>
+  <p class="info">If you want to delete just a single cell, please double click on it.</p>
+  <h2 class="size">Select a color:</h2>
+  <input type="color" id="colorPicker">
+  <h2 class="size">Design what you want...<i class="em em-blush"></i></h2>
+  <table id="pixel_canvas"></table>
+</body>
+
+</html>

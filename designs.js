@@ -10,7 +10,7 @@ submitBtn.click(function(event) { // when you click on that btn
 
 clearBtn.click(function(event) { // when you click on the btn
   event.preventDefault();
-  table.emprty(); // grid clears all
+  table.empty(); // grid clears all
 });
 
 function makeGrid() {

@@ -3,7 +3,7 @@ var rows, columns, colorChange;
 
 var submitBtn = $("#submitBtn");
 var clearBtn = $("#clearBtn");
-const table = document.getElementById("#pixel_canvas");
+var table = document.getElementById("#pixel_canvas");
 
 //submit and clear button
 

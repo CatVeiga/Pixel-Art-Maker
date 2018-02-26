@@ -1,43 +1,42 @@
-//all var that I need to use
-var rows, columns, colorChange;
-
+// variables to use 
 var submitBtn = $("#submitBtn");
 var clearBtn = $("#clearBtn");
-var table = document.getElementById("#pixel_canvas");
+var table = $("#pixel_canvas");
 
-//submit and clear button
-
-submitBtn.click(function(event) { //when click on submit button grid appears
-  event.preventDefault();
-  makeGrid();
+submitBtn.click(function(event) { // when you click on that btn
+  event.preventDefault(); 
+  makeGrid(); // creates the grid
 });
 
-clearBtn.click(function(event) { //when click on a clear button grid disappear
+clearBtn.click(function(event) { // when you click on the btn
   event.preventDefault();
-  table.empty();
+  table.emprty(); // grid clears all
 });
 
-// function makeGrid
+function makeGrid() {
 
-function makeGrid() {  //create a grid 
-  rows = $("#input_height").val();  
-  columns = $("#input_width").val(); 
+  var rows = $("#input_height").val(); // variable for height
+  var columns = $("#input_width").val (); // variable for width
 
-  for (var r = 0; r < rows; r++) { 
-    table.append("<tr></tr>"); 
+  for (var r = 0; r < rows; r++) {
+    table.append("<tr></tr>"); // for esch row append value on table
   }
+
   for (var c = 0; c < columns; c++) {
-    $("tr").each(function() {
-      $(this).append("<td></td>"); //for each row, appends a column
+     $("tr").each(function() {
+      $(this).append("<td></td>"); // for each row append  a column
     });
   }
-  
+
   // color to draw
   table.on("click", "td", function() {
-    colorChange = $("#colorPicker").val();
-    $(this).css("background-color", colorChange);
+
+    var colorChange = $("#colorPicker").val(); // variable for color picker
+
+    $(this).css("background-color", colorChange); // when click the color change
   });
+
   table.on("dblclick", "td", function() {
-    $(this).css("background-color", "transparent");
+    $(this).css("background-color", "transparent"); // when dblclick the background set transparent
   });
 }

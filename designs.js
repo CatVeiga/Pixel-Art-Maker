@@ -19,12 +19,12 @@ clearBtn.click(function(event) { //when click on a clear button grid disappear
 
 // function makeGrid
 
-function makeGrid() {
-  rows = $("#input_height").val(); 
+function makeGrid() {  //create a grid 
+  rows = $("#input_height").val();  
   columns = $("#input_width").val(); 
 
   for (var r = 0; r < rows; r++) { 
-    table.append("<tr></tr>");
+    table.append("<tr></tr>"); 
   }
   for (var c = 0; c < columns; c++) {
     $("tr").each(function() {

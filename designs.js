@@ -8,9 +8,9 @@ submitBtn.click(function(event) { // when you click on that btn
   makeGrid(); // creates the grid
 });
 
-clearBtn.click(function(event) { // when you click on the btn
+clearBtn.click(function(event) { //when you click on that btn
   event.preventDefault();
-  table.empty(); // grid clears all
+  table.empty(); // clears all
 });
 
 function makeGrid() {

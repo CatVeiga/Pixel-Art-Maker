@@ -1,6 +1,10 @@
 # Pixel-Art-Maker
 
-This project was built for the Front-End Nanodegree, in Udacity. 
+This project was built for the Front-End Nanodegree, in Udacity.
+
+Please click on the link below:
+
+https://cveiga819.github.io/Pixel-Art-Maker/ 
 
 ## Instructions: 
 

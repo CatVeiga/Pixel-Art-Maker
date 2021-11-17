@@ -1,12 +1,21 @@
-# Pixel-Art-Maker
+# Table of contents
+ ## Contents 
+ * Introduction
+ * Instructions
+ * Version
+ * Problems
+ * Contributing
+ * License
+
+## INTRODUCTION
 
 This project was built for the Front-End Nanodegree, in Udacity.
 
 Please click on the link below:
 
-https://cveiga819.github.io/Pixel-Art-Maker/ 
+https://catveiga.github.io/Pixel-Art-Maker/ 
 
-## Instructions: 
+## INSTRUCTIONS: 
 
 To use correctly Pixel Art Maker, first choose the size you want, be aware that the maximum it's only  50x50
 
@@ -30,17 +39,17 @@ if, for some reason you want to delete, just a single cell, please doubleclick o
 
 ![Screenshot](assets/screenshot_four.png)
 
-## Version
+## VERSION
 
 V1.0 
 
-## Problems
+## PROBLEMS
 
 If you have problems working with this, please feel free to contact me, with the screenshot of the problem, and what happened.
 
-## Contributing
+## CONTRIBUTING
 This is not an open-source project or a contributive one.
 
-## License
+## LICENSE
 
 GNU General Public License v3.0
